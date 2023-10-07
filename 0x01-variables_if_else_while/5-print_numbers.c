@@ -9,17 +9,12 @@
 
 int main(void)
 {
-char ch;
-char space = '\n';
-for (ch = 'A' ; ch <= 'Z' ; ch++)
-{
-putchar(tolower(ch));
-}
-for (ch = 'A' ; ch <= 'Z' ; ch++)
-{
-putchar(ch);
-}
-putchar(space);
+int a = 0;
 
+for (a = 0 ; a < 10 ; a++)
+{
+printf("%d", a);
+}
+printf("\n");
 return (0);
 }
