@@ -1,18 +1,25 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include <ctype.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Return: Always 0 (success)
+*/
+
 int main(void)
 {
-	int i;
+char ch;
+char space = '\n';
+for (ch = 'A' ; ch <= 'Z' ; ch++)
+{
+putchar(tolower(ch));
+}
+for (ch = 'A' ; ch <= 'Z' ; ch++)
+{
+putchar(ch);
+}
+putchar(space);
 
-	for (i = 0; i < 10; i++)
-		printf("%d", i);
-		printf("\n");
-
-	return (0);
+return (0);
 }
