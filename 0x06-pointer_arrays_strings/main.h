@@ -1,5 +1,5 @@
-#ifndef FILE_MAIN
-#define FILE_MAIN
+#ifndef FILE_MAIN_H
+#define FILE_MAIN_H
 
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
